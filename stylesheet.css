@@ -95,31 +95,24 @@ nav a:hover {
     margin-top: 350px;
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: rgb(153, 131, 131);
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     transition: 2s;
+
 }
 
 .quicklinkbutton:hover {
     text-decoration: underline;
     text-decoration-color: black;
     transform: scale(1.1);
+    border-color: black;
 }
 
 .quicklinkbutton:hover .quicklinktext {
     margin-top: 300px;
     width: 100%;
-}
-
-.quicklinksubtext {
-    font-size: 20px;
-    visibility: hidden;
-    text-decoration: none;
-}
-.quicklinkbutton:hover .quicklinksubtext {
-    visibility: visible;
 }
 
 #quicklinksteps {
@@ -130,4 +123,21 @@ nav a:hover {
 
 #quicklinkscosts {
     background-image: url(1dollarnbill.jpg);
+}
+
+#quicklinkroadcode {
+    background-image: url(roadcode.jpg);
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(211, 211, 195);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.stepstext {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
